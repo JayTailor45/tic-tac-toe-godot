@@ -1,0 +1,37 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://di81wb0dxu2x1"]
+
+[ext_resource type="FontFile" uid="uid://dpbdn6x1udcg4" path="res://Sawer.ttf" id="1_sdpwg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6x45o"]
+bg_color = Color(0.186974, 0.574669, 0.813625, 1)
+border_width_bottom = 4
+border_color = Color(0.0958541, 0.398653, 0.579244, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_57bkd"]
+bg_color = Color(0.129845, 0.483693, 0.695535, 1)
+border_width_bottom = 4
+border_color = Color(0.0958541, 0.398653, 0.579244, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hs2of"]
+bg_color = Color(0.241001, 0.629019, 0.87586, 1)
+border_width_bottom = 4
+border_color = Color(0.0958541, 0.398653, 0.579244, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[resource]
+default_font = ExtResource("1_sdpwg")
+default_font_size = 22
+Button/styles/hover = SubResource("StyleBoxFlat_6x45o")
+Button/styles/normal = SubResource("StyleBoxFlat_57bkd")
+Button/styles/pressed = SubResource("StyleBoxFlat_hs2of")
